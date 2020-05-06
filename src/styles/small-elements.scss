@@ -1,0 +1,144 @@
+h1 {
+    @extend %t-h1;
+    margin-bottom: 1.5rem;
+
+    &.large {
+        @extend %t-h1-large;
+        margin-bottom: 1.5rem;
+    }
+}
+
+h2 {
+    @extend %t-h2;
+    margin-bottom: 1.5rem;
+}
+
+h3 {
+    @extend %t-h3;
+    margin-bottom: 1.5rem;
+}
+
+h4 {
+    @extend %t-h4;
+    margin-bottom: 1.5rem;
+}
+
+h5 {
+    @extend %t-h5;
+    margin-bottom: 1.5rem;
+}
+
+h6 {
+    @extend %t-h6;
+    margin-bottom: 0.75rem;
+}
+
+p {
+    @extend %t-p;
+    margin-bottom: 1.5rem;
+
+    &.text-large {
+        @extend %t-p-large;
+    }
+
+    &.text-emphasis {
+        opacity: 0.55;
+    }
+
+    &.text-small {
+        @extend %t-p-small;
+    }
+}
+
+a {
+    @extend %t-link;
+    transition: opacity 200ms ease;
+}
+
+.text-large {
+    @extend %t-p-large;
+}
+
+button {
+    @extend %t-button;
+    margin: 0 0.25rem;
+    padding: 0 2rem;
+    height: 3rem;
+    text-align: center;
+    color: $white;
+    background-color: $black;
+    border-radius: 3px;
+
+    &.button-small {
+        @extend %t-button-small;
+        height: 1.875rem;
+        padding: 0 1rem;
+        text-align: center;
+        color: $white;
+        background-color: $black;
+        border-radius: 3px;
+    }
+
+    &.button-large {
+        @extend %t-button-large;
+        flex: 1;
+        height: 3.75rem;
+        margin: 0 0.25rem;
+        padding: 0 2rem;
+
+        border-radius: 3px;
+    }
+
+    &.button-round {
+        @extend button;
+        height: 3.75rem;
+        margin: 0 0.25rem;
+        padding: 0 2rem;
+        border-radius: 800px;
+    }
+
+    &.button-white {
+        height: 3.75rem;
+        margin: 0 0.25rem;
+        padding: 0 2rem;
+        color: $black;
+        background-color: $white;
+    }
+}
+
+.button {
+    @extend %t-button;
+    margin: 0 0.25rem;
+    padding: 0 2rem;
+    height: 3rem;
+    text-align: center;
+    color: $white;
+    background-color: $black;
+    border-radius: 3px;
+}
+
+input {
+    height: 3rem;
+    margin-bottom: 1.5rem;
+    padding: 0.5rem 0.75rem;
+    border: 1px solid #e8e9ea;
+    border-radius: 3px;
+    background-color: #fff;
+    transition: border-color 200ms ease;
+    font-size: 1rem;
+    line-height: 3rem;
+    vertical-align: middle;
+
+    &.large {
+        @extend input;
+        height: 3.75rem;
+        font-size: 1.25rem;
+        line-height: 3.75rem;
+    }
+}
+
+// select {
+// }
+
+// textarea {
+// }

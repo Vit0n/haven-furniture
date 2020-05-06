@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass');
+
+%t-h1-large {
+    font-size: 4.5rem;
+    line-height: 4.5rem;
+}
+
+%t-h1 {
+    font-size: 2.5rem;
+    line-height: 3rem;
+    font-weight: 400;
+}
+
+%t-h2 {
+    font-size: 2rem;
+    line-height: 2.5rem;
+    font-weight: 400;
+}
+
+%t-h3 {
+    font-size: 1.75rem;
+    line-height: 2.25rem;
+    font-weight: 400;
+}
+
+%t-h4 {
+    font-size: 1.5rem;
+    line-height: 1.875rem;
+    font-weight: 400;
+}
+
+%t-h5 {
+    font-size: 1.25rem;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+%t-h6 {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 600;
+}
+
+%t-p-large {
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+}
+
+%t-p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+%t-p-small {
+    font-size: 0.875rem;
+    line-height: 1.2rem;
+}
+
+%t-link {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+%t-button-small {
+    font-size: 0.875rem;
+    line-height: 1.875rem;
+    font-weight: 600;
+    letter-spacing: 0em;
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+%t-button {
+    font-size: 0.875rem;
+    line-height: 3rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+%t-button-large {
+    font-size: 1rem;
+    line-height: 3.75rem;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}

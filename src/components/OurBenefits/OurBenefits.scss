@@ -1,0 +1,10 @@
+.ourbenefits {
+    padding: 96px 0;
+    border-top: 1px solid lightgrey;
+
+    &__inner {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}

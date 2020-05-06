@@ -1,0 +1,12 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    @include response-from(desktop) {
+        padding: 0 toRem(24);
+        margin: 0 auto;
+
+        max-width: toRem(1176);
+    }
+}

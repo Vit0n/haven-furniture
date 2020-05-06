@@ -1,0 +1,23 @@
+$white: #ffffff;
+$black: #090e1d;
+
+//* Sizes
+$zones: (
+    mobile: (
+        max: 767,
+    ),
+    wide-mobile: (
+        min: 650,
+        max: 767,
+    ),
+    tablet: (
+        min: 768,
+        max: 1249,
+    ),
+    desktop: (
+        min: 1250,
+    ),
+) !default;
+
+$base-font-size: 16;
+$container-width: 1200;

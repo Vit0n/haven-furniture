@@ -1,0 +1,19 @@
+.benefit {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 30%;
+    text-align: center;
+
+    h5 {
+        margin-bottom: 1rem;
+    }
+
+    img {
+        order: -1;
+        width: 3rem;
+        height: 3rem;
+        margin-bottom: 1rem;
+    }
+}

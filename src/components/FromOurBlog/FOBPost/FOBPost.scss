@@ -1,0 +1,28 @@
+.fob-post {
+    display: flex;
+    flex-direction: column;
+
+    color: black;
+
+    flex-basis: 360px;
+
+    &:hover {
+        opacity: 0.7;
+    }
+
+    &__image--wrapper {
+        width: 360px;
+        height: 360px;
+    }
+
+    &__description {
+        margin-top: 24px;
+    }
+
+    &__date {
+        display: block;
+        margin-bottom: 8px;
+        color: black;
+        opacity: 0.6;
+    }
+}

@@ -1,0 +1,26 @@
+.shopping-cart {
+    display: flex;
+
+    &__icon {
+        width: 1.5rem;
+        height: 1.5rem;
+        cursor: pointer;
+        padding: 0.15rem;
+        margin-right: 0.5rem;
+    }
+
+    &__goods-amount {
+        width: 1.5rem;
+        height: 1.5rem;
+        font-size: 0.8rem;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 3px;
+        padding-top: 6px;
+        border-radius: 3px;
+        color: white;
+        background-color: red;
+    }
+}

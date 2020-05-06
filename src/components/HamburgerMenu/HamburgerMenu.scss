@@ -1,0 +1,27 @@
+.hamburger-navigation {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid lightgrey;
+    position: absolute;
+    left: 5px;
+    top: 30px;
+    background-color: white;
+
+    &__links {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__link {
+        color: black;
+        padding: 0.5rem 1.5rem;
+        white-space: nowrap;
+        cursor: pointer;
+        opacity: 0.6;
+        transition: opacity 0.3s linear;
+
+        &:hover {
+            opacity: 1;
+        }
+    }
+}
